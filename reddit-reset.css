@@ -1,0 +1,433 @@
+/** Generic Reset
+ * -----------------------------------------
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+                                        { margin: 0;
+                                          padding: 0;
+                                          border: 0;
+                                          font-size: 100%;
+                                          font: inherit;
+                                          vertical-align: baseline;
+                                        }
+/* HTML5 display-role reset for older browsers
+   ================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+                                        { display: block }
+body                                    { line-height: 1 }
+ol, ul                                  { list-style: none }
+table                                   { border-collapse: collapse;
+                                          border-spacing: 0;
+                                        }
+/** Reddit Header Reset
+ * -----------------------------------------
+ */
+#header                                 { border-bottom: none;
+                                          position: static;
+                                          background-color: transparent;
+                                          z-index: auto;
+                                        }
+#jumpToContent                          { position: static;
+                                          left: 0;
+                                          top: 0;
+                                          font-weight: normal;
+                                          margin-left: 0;
+                                        }
+#sr-header-area                         { background-color: transparent;
+                                          white-space: normal;
+                                          text-transform: none;
+                                          border-bottom: none;
+                                          font-size: 1em;
+                                          height: auto;
+                                          line-height: normal;
+                                        }
+#header-bottom-left                     { font-size: 1em }
+#header-img.default-header              { text-indent: 0;
+                                          background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                          height: auto;
+                                          width: auto;
+                                          display: inline;
+                                          vertical-align: baseline;
+                                          margin-bottom: 0;
+                                        }
+.pagename                               { font-weight: normal;
+                                          margin-right: 0;
+                                          font-variant: normal;
+                                          font-size: 1em;
+                                          vertical-align: baseline;
+                                        }
+.tabmenu                                { list-style-type: none;
+                                          white-space: normal;
+                                          display: inline;
+                                          margin-top: 0;
+                                          vertical-align: baseline;
+                                        }
+.tabmenu li                             { display: inline;
+                                          font-weight: normal;
+                                          margin: 0;
+                                        }
+.tabmenu li a                           { padding: 0;
+                                          background-color: transparent;
+                                        }
+.tabmenu li.selected a                  { color: black;
+                                          background-color: transparent;
+                                          border: none;
+                                          border-bottom: none;
+                                          z-index: auto;
+                                        }
+#header-bottom-right                    { position: static;
+                                          right: auto;
+                                          bottom: auto;
+                                          background-color: transparent;
+                                          padding: 0;
+                                          line-height: normal;
+                                          border-top-left-radius: 0;
+                                        }
+#mail                                   { position: static;
+                                          top: auto;
+                                          display: inline;
+                                          text-indent: 0;
+                                          overflow: auto;
+                                          width: auto;
+                                          height: auto;
+                                        }
+#mail.nohavemail, #modmail.nohavemail, #mail.havemail, #modmail.havemail
+                                        { background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                        }
+#modmail                                { position: static;
+                                          top: auto;
+                                          display: inline;
+                                          text-indent: 0;
+                                          overflow: auto;
+                                          width: auto;
+                                          height: auto;
+                                          margin-bottom: 0;
+                                        }
+.separator                              { color: black;
+                                          margin: 0;
+                                          cursor: default;
+                                        }
+.pref-lang                              { font-weight: normal }
+/** Reddit Side Reset
+ * -----------------------------------------
+ */
+.side                                   { float: none;
+                                          background-color: transparent;
+                                          margin: 0;
+                                          width: auto;
+                                        }
+.side .spacer                           { margin: 0 }
+#search input[type=text]                { border: 1px solid gray;
+                                          font-size: 1em;
+                                          width: auto;
+                                          padding: 0;
+                                        }
+#searchexpando                          { padding-top: 0;
+                                          margin: 0;
+                                          border-radius: 0;
+                                        }
+.infobar                                { background-color: transparent;
+                                          padding: 0;
+                                          margin: 0;
+                                          border: none;
+                                          font-size: 1em;
+                                        }
+label+#moresearchinfo                   { border-width: 0;
+                                          margin-top: 0px;
+                                        }
+#moresearchinfo                         { display: none;
+                                          padding-top: 0;
+                                          max-width: 0;
+                                          border: 0;
+                                          margin-top: 0;
+                                        }
+#searchexpando input, #searchexpando p  { margin-bottom: 0 }
+.morelink                               { display: inline;
+                                          text-align: left;
+                                          position: static;
+                                          border: none;
+                                          background: transparent;
+                                          background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                          font-size: 1em;
+                                          font-weight: normal;
+                                          letter-spacing: 0;
+                                          line-height: normal;
+                                          height: auto;
+                                        }
+.morelink a                             { display: inline;
+                                          width: auto;
+                                          color: black;
+                                        }
+.morelink .nub                          { position: static;
+                                          top: 0;
+                                          right: 0;
+                                          height: auto;
+                                          width: auto;
+                                          background: transparent;
+                                          background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                        }
+.titlebox                               { font-size: 1em }
+.titlebox h1                            { font-family: inherit;
+                                          margin: 0;
+                                          margin-bottom: 0;
+                                          font-weight: normal;
+                                          font-size: 1em;
+                                        }
+.titlebox .fancy-toggle-button          { display: inline;
+                                          margin-right: 0;
+                                        }
+.fancy-toggle-button .active            { border: none;
+                                          padding: 0;
+                                          background: transparent;
+                                          color: black;
+                                          font-size: 1em;
+                                          font-weight: normal;
+                                          line-height: normal;
+                                          border-radius: 0;
+                                        }
+.fancy-toggle-button .remove, .fancy-toggle-button .add
+                                        { background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                        }
+.users-online                           { margin-bottom: 0 }
+.titlebox form.toggle, .leavemoderator  { margin: 0;
+                                          padding: 0;
+                                          font-size: 1em;
+                                          color: black;
+                                          background: transparent;
+                                        }
+.users-online:before, .titlebox .leavemoderator:before, .moderator.toggle .main:before, .titlebox form.leavecontributor-button:before
+                                        { background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                        }
+.usertable .moderator.toggle .main:before, .titlebox .leavemoderator:before, .titlebox form.leavecontributor-button:before, .icon-menu .reddit-edit:before, .icon-menu .reddit-traffic:before, .icon-menu .reddit-reported:before, .icon-menu .reddit-spam:before, .icon-menu .wikiaction-pages:before, .icon-menu .wikiaction-revisions:before, .icon-menu .reddit-ban:before, .icon-menu .reddit-flair:before, .icon-menu .reddit-moderationlog:before, .icon-menu .reddit-unmoderated:before, .icon-menu .reddit-moderators:before, .icon-menu .moderator-mail:before, .icon-menu .reddit-contributors:before, .icon-menu .reddit-modqueue:before, .giftgold a:before, .gilded-comments-link a:before, .infobar.gold:before, .gold-form h1.goldgift:before, .users-online:before, .notice-taken:before, .notice-available:before, .info-notice:before
+                                        { height: auto;
+                                          width: auto;
+                                          display: inline;
+                                          content: "";
+                                          float: none;
+                                          margin-right: 0;
+                                        }
+.titlebox .tagline                      { margin: 0 }
+.tagline                                { color: black;
+                                          font-size: 1em;
+                                        }
+.tagline a                              { color: black;
+                                          text-decoration: none;
+                                        }
+.flair, .linkflairlabel                 { display: inline;
+                                          margin-right: 0;
+                                          padding: 0;
+                                          background: transparent;
+                                          color: black;
+                                          border: none;
+                                          border-radius: 0;
+                                        }
+a.author                                { margin-right: 0 }
+.usertext                               { font-size: 1em }
+.titlebox .md                           { font-size: 1em }
+.md                                     { max-width: none;
+                                          overflow: auto;
+                                          font-size: 1em;
+                                        }
+.titlebox .bottom                       { border-top: none;
+                                          padding-top: 0;
+                                          font-size: 1em;
+                                          color: black;
+                                        }
+.sidecontentbox .title h1               { display: inline;
+                                          text-transform: none;
+                                          margin: 0;
+                                          color: black;
+                                          font-size: 1em;
+                                        }
+.sidecontentbox .content                { margin: 0;
+                                          padding: 0;
+                                          border: none;
+                                          font-size: 1em;
+                                          list-style: none;
+                                        }
+.sidecontentbox a.helplink              { float: none;
+                                          margin-top: 0;
+                                        }
+.gadget                                 { font-size: 1em }
+.gadget .click-gadget                   { font-size: 1em }
+.gadget .right                          { text-align: left }
+.account-activity-box                   { text-align: left }
+.titlebox .age                          { float: left }
+.sidecontentbox .collapse-button        { display: inline;
+                                          width: auto;
+                                          height: auto;
+                                          line-height: normal;
+                                          text-align: left;
+                                          font-size: 1em;
+                                          background: none;
+                                          color: black;
+                                          border: none;
+                                          border-radius: 0;
+                                          margin: 0;
+                                          vertical-align: baseline;
+                                        }
+.linkinfo                               { padding: 0;
+                                          border: none;
+                                          background-color: transparent;
+                                          font-family: inherit;
+                                          font-size: 1em;
+                                          border-radius: 0;
+                                        }
+.linkinfo .upvotes, .linkinfo .downvotes
+                                        { font-size: 1em;
+                                          color: black;
+                                        }
+.linkinfo .shortlink                    { font-size: 1em;
+                                          margin-top: 0;
+                                        }
+.linkinfo .shortlink input              { border: none;
+                                          font-family: inherit;
+                                          font-size: 1em;
+                                          padding: 0;
+                                          width: auto;
+                                        }
+/** Reddit Content Reset
+ * -----------------------------------------
+ */
+.content                                { z-index: auto;
+                                          margin: 0;
+                                        }
+.sitetable                              { list-style-type: none }
+.link                                   { margin: 0;
+                                          margin-bottom: 0;
+                                          padding-left: 0;
+                                        }
+.link .rank                             { float: none;
+                                          margin-top: 0;
+                                          color: black;
+                                          font-family: inherit;
+                                          font-size: 1em;
+                                          text-align: left;
+                                        }
+.link .midcol                           { font-weight: normal;
+                                          font-size: 1em;
+                                        }
+.arrow                                  { margin: 0;
+                                          width: auto;
+                                          height: auto;
+                                          display: inline;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                          width: auto;
+                                          margin-left: 0;
+                                          margin-right: 0;
+                                          outline: none;
+                                        }
+.arrow.upmod, .arrow.down               { background-image: none;
+                                          background-position: 0;
+                                          background-repeat: repeat;
+                                        }
+.link .score.likes                      { color: black }
+.entry                                  { overflow: auto;
+                                          margin-left: 0;
+                                          opacity: 1;
+                                        }
+.linkflairlabel                         { font-size: 1em;
+                                          max-width: none;
+                                          overflow: auto;
+                                          white-space: normal;
+                                        }
+.link .title                            { font-size: 1em;
+                                          font-weight: normal;
+                                          margin-bottom: 0;
+                                        }
+.domain, .domain a                      { color: black;
+                                          font-size: 1em;
+                                        }
+.expando-button                         { float: none;
+                                          height: auto;
+                                          width: auto;
+                                          margin: 0;
+                                          background: none;
+                                        }
+.expando-button.selftext.collapsed, .expando-button.video.collapsed, .expando-button.selftext.expanded, .expando-button.video.expanded, .eb-se, .eb-veh
+                                        { background-image: none;
+                                          background-position: 0 0;
+                                          background-repeat: repeat;
+                                        }
+.link .flair                            { font-size: 1em;
+                                          margin-top: 0;
+                                        }
+.link .flat-list                        { display: inline;
+                                          padding: 0;
+                                        }
+.entry .buttons li                      { display: inline;
+                                          border: none;
+                                          padding-right: 0;
+                                        }
+.entry .buttons li a                    { color: black;
+                                          font-weight: normal;
+                                          padding: 0;
+                                        }
+.link .usertext .md                     { padding: 0;
+                                          background-color: transparent;
+                                          border: none;
+                                          border-radius: 0;
+                                        }
+/** Reddit Conmment Reset
+ * -----------------------------------------
+ */
+.commentarea>.usertext                  { margin: 0;
+                                          overflow: auto;
+                                        }
+.gold-accent.comment-visits-box         { color: black;
+                                          margin: 0;
+                                          padding: 0;
+                                          max-width: none;
+                                        }
+.gold-accent                            { margin-top: 0px;
+                                          padding: 0;
+                                          background-color: transparent;
+                                          border: none;
+                                          color: black;
+                                          display: inline;
+                                        }
+.comment .author                        { font-weight: normal }
+.comment .score                         { font-size: 1em }
+.new-comment .usertext-body             { background-color: transparent;
+                                          border: none;
+                                          margin: 0;
+                                        }
+/** Reddit Footer Reset
+ * -----------------------------------------
+ */
+.footer-parent                          { font-size: 1em;
+                                          padding-top: 0;
+                                          clear: both;
+                                          text-align: left;
+                                        }
+.footer                                 { color: black;
+                                          padding: 0;
+                                          margin: 0;
+                                          border: none;
+                                          display: inline;
+                                        }
+.footer .col                            { float: none;
+                                          margin: 0;
+                                          padding: 0;
+                                          border-left: none;
+                                          height: auto;
+                                        }
+.flat-vert.title                        { font-family: inherit;
+                                          color: black;
+                                          font-size: 1em;
+                                          font-weight: normal;
+                                          margin-bottom: 0;
+                                        }
+
